@@ -8,7 +8,6 @@
 }
 
 
-
 .tech-stack {
     height: 33%;
     width: 100%;
@@ -44,6 +43,8 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
 }
 
 .nav-btn:hover {
