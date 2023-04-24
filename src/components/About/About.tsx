@@ -2,10 +2,11 @@ import './About.css'
 import Header from '../Header/Header';
 
 const About = () => {
+  
   return (
-    <div>
+    <section className='about-page'>
       <Header/>
-    </div>
+    </section>
   )
 }
 
