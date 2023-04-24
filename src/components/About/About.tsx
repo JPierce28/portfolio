@@ -2,10 +2,20 @@ import './About.css'
 import Header from '../Header/Header';
 
 const About = () => {
+  
   return (
-    <div>
+    <section className='about-page'>
       <Header/>
-    </div>
+      <h1>About Me</h1>
+      <section className='about-description'>
+        <div className='image-container'>
+          <img className='profile-picture' src='/images/JPicture.jpg'></img>
+        </div>
+        <div className='description-container'>
+          <p>I will say things about myself here</p>
+        </div>
+      </section>
+    </section>
   )
 }
 
