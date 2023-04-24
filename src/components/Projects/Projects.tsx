@@ -6,10 +6,10 @@ const Projects = () => {
     <section className='projects-page'>
       <Header/>
       <h1>My Projects</h1>
-      <section className='projects-container'>
+      <section className='project-container'>
         <div className='project-card'>
           <div className='project-image'>
-            <img className='profile-picture' src=''></img>
+            <img className='profile-picture' src='/images/vinyl.png'></img>
           </div>
           <div className='project-description'>
             <p>description here</p>
@@ -17,7 +17,7 @@ const Projects = () => {
         </div>
         <div className='project-card'>
           <div className='project-image'>
-            <img className='profile-picture' src=''></img>
+            <img className='profile-picture' src='/images/hooper.png'></img>
           </div>
           <div className='project-description'>
             <p>description here</p>
@@ -25,7 +25,7 @@ const Projects = () => {
         </div>
         <div className='project-card'>
           <div className='project-image'>
-            <img className='profile-picture' src=''></img>
+            <img className='profile-picture' src='/images/bookworm.png'></img>
           </div>
           <div className='project-description'>
             <p>description here</p>
