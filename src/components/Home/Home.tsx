@@ -1,5 +1,4 @@
 import './Home.css'
-import Header from '../Header/Header';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const Home = () => {
