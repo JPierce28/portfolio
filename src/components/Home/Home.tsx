@@ -1,17 +1,15 @@
 import './Home.css'
-import { Routes, Route } from 'react-router'
-import About from '../About/About'
-import Tech from '../Tech/Tech'
-import Projects from '../Projects/Projects'
+import { useLocation } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/projects' element={<Projects/>}/>
-      <Route path='/tech-stack' element={<Tech/>}/>
-    </Routes>
+    <section className='home-page'>
+      <header className='main-header'>
+        <button className='tech-btn'>Tech Stack</button>
+        <h1>Hello there I am Josh</h1>
+        <button className='projects-btn'>Projects</button>
+      </header>
+    </section>
   )
 }
 
