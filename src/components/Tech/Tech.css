@@ -1,11 +1,20 @@
 .tech-stack-page {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
-    background-color: lightblue;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: url('/public/images/background.jpg');
+}
+
+.tech-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .tech-stack-container {
@@ -14,16 +23,17 @@
     border: 2px solid black;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: white;
     color: black;
-    opacity: .8;
-    margin-bottom: 5%
+    opacity: .9;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px black;
 }
 
 .technology {
     height: 30%;
-    width: 10%;
-    border: 2px solid white;
+    margin: 2%;
 }
