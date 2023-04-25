@@ -7,6 +7,18 @@
     background-image: url('/public/images/background.jpg');
 }
 
+.home-header {
+    height: 20vh;
+    width: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    opacity: .8;
+}
 
 .tech-stack {
     height: 33%;

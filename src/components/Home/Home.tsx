@@ -7,8 +7,9 @@ const Home = () => {
 
   return (
     <section className='home-page'>
-      <header className='main-header'>
-        <h1>Hello I'm Josh mofucka</h1>
+      <header className='home-header'>
+        <h1>Joshua Pierce</h1>
+        <h3>Frontend Software Developer</h3>
       </header>
       <div className='tech-stack'>
         {location.pathname !== '/about' && <button onClick={() => navigate('/tech-stack')} className='nav-btn'>Tech Stack</button>}
