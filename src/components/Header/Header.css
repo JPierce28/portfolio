@@ -6,4 +6,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    background-color: white;
+    color: black;
+    opacity: .8;
 }

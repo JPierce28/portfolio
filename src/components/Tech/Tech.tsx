@@ -3,9 +3,17 @@ import './Tech.css'
 
 const Tech = () => {
   return (
-    <div>
+    <section className='tech-stack-page'>
       <Header/>
-    </div>
+      <h1>Technologies I've Used</h1>
+      <section className='tech-stack-container'>
+          <img className='technology' src=''></img>
+          <img className='technology' src=''></img>
+          <img className='technology' src=''></img>
+          <img className='technology' src=''></img>
+          <img className='technology' src=''></img>
+      </section>
+    </section>
   )
 }
 

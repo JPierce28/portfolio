@@ -1,0 +1,29 @@
+.tech-stack-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/public/images/background.jpg');
+}
+
+.tech-stack-container {
+    height: 80vh;
+    width: 80vw;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    opacity: .8;
+    margin-bottom: 5%
+}
+
+.technology {
+    height: 30%;
+    width: 10%;
+    border: 2px solid white;
+}

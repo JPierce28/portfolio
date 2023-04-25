@@ -31,8 +31,8 @@ h1 {
 .description-container {
     width: 50%;
     height: 100%;
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: black;
     opacity: .8;
 }
 

@@ -17,8 +17,8 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: black;
     opacity: .8;
     margin-bottom: 5%
 }
@@ -26,7 +26,8 @@
 .project-card {
     height: 95%;
     width: 20vw;
-    border: 2px solid white;
+    border: 2px solid black;
+    
 }
 
 .project-image {
