@@ -47,19 +47,57 @@
     justify-content: space-around;
 }
 
-.nav-btn {
+.nav-btn{
     width: 20%;
     height: 20%;
-    color: black;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-style: bold;
+    font-size: xx-large;
+    color: black;
+    transition: all 0.5s;
+    position: relative;
+    cursor: pointer; 
 }
 
-.nav-btn:hover {
-    color: white;
-    background-color: black;
+.nav-btn span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
 }
+
+.nav-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.1);
+}
+  
+.nav-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.nav-btn:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+}
+  
+.nav-btn:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+ }
