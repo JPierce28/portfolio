@@ -16,8 +16,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: black;
     opacity: .8;
     margin-bottom: 5%
 }
